@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+
+header{
+    height: 250px;
+    background-color: darkslateblue;
+ }
+main{
+
+    background-color: rgb(152, 221, 247);
+}
+
+section{
+    height: 1400px;
+    background-color: rgb(230, 165, 179);}
+  
+    .nino{
+    background-color: rgb(228, 228, 228);
+    height: 700px;
+}
+
+.contenedor_productos{
+position: relative;
+}
+
+.contenedor_productos div{
+height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 20px;
+    
+
+
+}
+    
+
+.violeta{
+    background-color:blueviolet;
+    position: relative;
+    /*float: right;*/
+    /*margin-left: auto;*/  
+}
+.naranja{
+    position: absolute;
+    left: 150px;
+    background-color:coral;
+}
+.verde{
+    position: sticky;
+    top: 10px;
+    background-color:green;
+}
