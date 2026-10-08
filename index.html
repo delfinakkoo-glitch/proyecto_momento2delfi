@@ -1,56 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mate</title>
     <link rel="stylesheet" href="./css/stylesheet.css">
-    <link rel="icon" sizes="16x16" href="./img/favicon-32x32.png">
-    <title>Document</title>
+
+<!-- TIPOGRAFIA TEXTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <!--COMIENZO DEL HEADER-->
-    <!--  -->
-    <header><h1>LOGO</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+    <!-- HEADER -->
+    <header>
+        <div>
+            <img src="./img/logo.png" alt="Logo de Mate">
+            <h1>MATE</h1>
+            <nav>
+                <a href="./index.html">Inicio</a>
+                <a href="./pages/mates.html">Mates</a>
+                <a href="./pages/yerbas.html">Yerbas</a>
+                <a href="./pages/accesorios.html">Accesorios</a>
+                <a href="./pages/contacto.html">Contacto</a>
+            </nav>
+        </div>
     </header>
-<!-- COMIENZO DEL MAIN -->
+
     <main>
-        <section>
-            <h1>Bienvenido al sitio</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>lorem ipsum dolor sit amet</p>
-            <img src="./css/img/82b47b8e-3ba2-4bcc-af72-9b7c6654dd27.jpg" alt="" width="300 px" height=>
-            <img src="https://images-tools.cadena3.com/tools/r/c782bfee-6576-4adb-9611-ab584a224fb9.jpg?width=1200&height=1200" alt="">
-            
+        <!-- SECTION 1: h1 + p + botón + foto -->
+        <section class="inicio">
+            <div class="texto">
+                <h1>Todo para tu mate</h1>
+                <p>Los mejores mates, yerbas y accesorios para que disfrutes cada momento.</p>
+                <button>Ver productos</button>
+            </div>
 
+            <div class="foto">
+                <img src="./img/imagen-principal.webp" alt="Set de mate de calabaza">
+            </div>
         </section>
-        <section class="nino">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto atque ipsa obcaecati rem consequatur in exercitationem eos neque commodi! Mollitia ipsa alias quis eaque eius, asperiores blanditiis a cumque et!</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/aIsz7g8IARs?si=j-D1hTiS7hweJ62q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.202176968376!2d-58.40982972383586!3d-34.5990487572524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8e133d22d5%3A0xd338ece6d7576093!2sJean%20Jaures%20932%2C%20C1215ACR%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1789065682866!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+        <!-- SECTION 2: h2 + div (img + h3 + p) -->
+        <section class="categorias">
+            <h2>Categorías</h2>
+
+            <div>
+                <img src="./img/mates.jpg" alt="Mates">
+                <h3>Mates</h3>
+                <p>Calabaza, madera y más</p>
+            </div>
+
+            <div>
+                <img src="./img/yerbas.jpg" alt="Yerbas">
+                <h3>Yerbas</h3>
+                <p>Suaves, clásicas y orgánicas</p>
+            </div>
+
+            <div>
+                <img src="./img/termos.jpg" alt="Termos">
+                <h3>Termos</h3>
+                <p>Agua caliente todo el día</p>
+            </div>
+
+            <div>
+                <img src="./img/bombillas.jpg" alt="Bombillas">
+                <h3>Bombillas</h3>
+                <p>De acero y de alpaca</p>
+            </div>
         </section>
-        <article>
-            <div><h3>producto 1</h3></div>
-            <div><h3>producto 2</h3></div>
-            <div><h3>producto 3</h3></div>
-        </article>
+
+        <!-- SECTION 3: div (img + h3 + p + botón) -->
+        <section class="productos">
+            <div>
+                <img src="./img/mate-de-madera.jpg" alt="Mate de madera">
+                <h3>Mate de madera</h3>
+                <p>$ 12.000</p>
+                <button>Ver</button>
+            </div>
+
+            <div>
+                <img src="./img/yerba-organica.jpg" alt="Yerba orgánica">
+                <h3>Yerba orgánica</h3>
+                <p>$ 5.500</p>
+                <button>Ver</button>
+            </div>
+
+            <div>
+                <img src="./img/termo-inoxidable.jpg" alt="Termo inoxidable">
+                <h3>Termo inoxidable</h3>
+                <p>$ 18.000</p>
+                <button>Ver</button>
+            </div>
+        </section>
     </main>
-
-    <aside>
-    <p>Espacio publicitario</p>
-    </aside>
-
-     <footer>
-    <p>Muchas gracias </p>
-    </footer>
-
-
 </body>
 </html>
